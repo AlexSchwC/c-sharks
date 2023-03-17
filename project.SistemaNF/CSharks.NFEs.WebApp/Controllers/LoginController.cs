@@ -35,7 +35,7 @@ namespace CSharks.NFEs.WebApp.Controllers
                     TempData["Warning"] = "Empresa não cadastrada no sistema";
                 } else
                 {
-                    User user = _userRepo.GetByLogin(credentials.Login);
+                    User user = _userRepo.GetByEnterpriseId(enterprise.Id);
                     if (user != null)
                     {
                         try

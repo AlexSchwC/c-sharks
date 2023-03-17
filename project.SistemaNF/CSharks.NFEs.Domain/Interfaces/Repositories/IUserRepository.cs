@@ -5,5 +5,7 @@ namespace CSharks.NFEs.Domain.Interfaces.Repositories
     public interface IUserRepository : IBaseRepository<User>
     {
         public User GetByLogin(string login);
+
+        public User GetByEnterpriseId(Guid id);
     }
 }

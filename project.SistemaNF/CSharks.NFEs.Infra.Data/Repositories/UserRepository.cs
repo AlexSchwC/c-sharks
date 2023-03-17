@@ -12,10 +12,17 @@ namespace CSharks.NFEs.Infra.Data.Repositories
             _dataContext = context;
         }
 
+        public User GetByEnterpriseId(Guid id)
+        {
+            return _dataContext!.Users.FirstOrDefault(user => user.EnterpriseId == id)!;
+        }
+
         public User GetByLogin(string login)
         {
             return  _dataContext!.Users.FirstOrDefault(user => user.Login == login)!;
         }
+
+
     }
 }
 

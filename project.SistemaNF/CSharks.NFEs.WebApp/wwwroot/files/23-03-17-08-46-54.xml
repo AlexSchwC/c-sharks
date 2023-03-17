@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nfse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nf>
+    <valor_total>133</valor_total>
+  </nf>
+  <prestador>
+    <cpfcnpj>35611075000193</cpfcnpj>
+    <cidade>8047</cidade>
+  </prestador>
+  <tomador>
+    <tipo>J</tipo>
+    <cpfcnpj>12345687955</cpfcnpj>
+    <nome_razao_social>Juninho</nome_razao_social>
+    <ie>388108598269</ie>
+    <logradouro>Rua Max Weise</logradouro>
+    <bairro>Água Verde</bairro>
+    <cidade>8047</cidade>
+    <email>junior@teste.com</email>
+    <numero_residencia>290</numero_residencia>
+  </tomador>
+  <itens>
+    <lista>
+      <tributa_municipio_prestador>S</tributa_municipio_prestador>
+      <codigo_local_prestacao_servico>8357</codigo_local_prestacao_servico>
+      <codigo_item_lista_servico>702</codigo_item_lista_servico>
+      <descritivo>Teste</descritivo>
+      <aliquota_item_lista_servico>5</aliquota_item_lista_servico>
+      <situacao_tributaria>0</situacao_tributaria>
+      <valor_tributavel>0</valor_tributavel>
+    </lista>
+  </itens>
+</nfse>
